@@ -45,7 +45,7 @@ footer {
 
 @media(min-width: 768px) {
     body {
-        background: url('../img/splash-md.jpg') center / cover    
+        background-image: url('../img/splash-md.jpg') center / cover    
     }
 
     html {
@@ -53,7 +53,10 @@ footer {
     }
 
     footer {
-        display: fixed;
+        position: fixed;
+        display: block;
+        bottom: 0;
+        right: 0;
     }
 
     main {
@@ -63,7 +66,7 @@ footer {
 
 @media(min-width: 992px) {
     body {
-        background: url('../img/splash-lg.jpg') center/cover;
+        background-image: url('../img/splash-lg.jpg');
     }
 
     nav a {
@@ -81,6 +84,6 @@ footer {
 
 @media(min-width: 1200px) {
     body {
-        background: url('../img/splash-xl.jpg') center/cover;
+        background-image: url('../img/splash-xl.jpg') center/cover;
     }
 }
